@@ -1,0 +1,106 @@
+
+*      {margin:0; padding:0;}
+body   {background:#14232D; 
+      position:absolute; 
+      width:100%; 
+      height:100%;
+      padding-top:50px;
+      }
+#main  {
+  background:#888;
+  position:absolute; 
+  top:50px; 
+  bottom:80px; 
+  width:100%;
+  }
+
+#left  {
+  background:#18354A; 
+  position:absolute; 
+  width:300px; 
+  height:100%; 
+  overflow:hidden;
+  color:#ffffff;
+}
+
+#left h3{
+    padding-left:25px;
+    margin-bottom:20px;
+  }
+
+#right {
+  background:#14232D; 
+  margin-left:300px; 
+  height:100%; 
+  overflow-y:scroll;
+
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#foot  {
+  padding-left:310px; 
+  padding-right:10px;
+  padding-top:10px; 
+  padding-bottom:10px;
+  background:#F8F8F8; 
+  position:absolute; 
+  bottom:0; 
+  width:100%;
+  height:80px; 
+  overflow:auto;
+}
+
+
+.message-wrap
+{
+    padding:0;
+    padding-left:10px;
+    color:#ffffff;
+}
+
+.msg
+{
+    padding:5px;
+    margin:0;
+}
+
+.send-message
+{
+    resize: none;
+}
+
+.msg-name
+{
+  color: grey;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.room{
+  vertical-align:middle;
+  height:35px;
+  padding-left:25px;
+  line-height: 35px;
+}
+
+.selected{
+  background-color:#14232D;
+}
+
+.lead{
+  text-align: center;
+}
+
+.jumbotron h1, .jumbotron .h1{
+  color: #14232D;
+  text-align: center;
+}
+
+.room_panel{
+color:#000000;
+}
+
